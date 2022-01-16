@@ -8,3 +8,22 @@ body {
     font-size: 50px;
     color: white;
 }
+
+.navBar {
+    background-color: rgb(29, 29, 29);
+    overflow: hidden;
+}
+
+.navBar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navBar a:hover {
+    background-color: white;
+    color: black;
+}
