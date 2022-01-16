@@ -9,6 +9,13 @@ body {
     color: white;
 }
 
+.gameName {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
 .navBar {
     font-family: sans-serif;
     background-color: rgb(29, 29, 29);
