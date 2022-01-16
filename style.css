@@ -15,6 +15,7 @@ body {
     overflow: hidden;
     border-radius: 25px;
     font-size: 25px;
+    text-align: center;
 }
 
 .navBar a {
