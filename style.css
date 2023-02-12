@@ -16,12 +16,6 @@ body {
     color: white;
 }
 
-.navBar {
-    font-family: sans-serif;
-    background-color: rgb(29, 29, 29);
-    overflow: hidden;
-}
-
 #gameListUL {
     list-style-type: none;
     padding: 0;
@@ -37,6 +31,12 @@ body {
     font-size: 20px;
     color: black;
     display: block;
+}
+
+.navBar {
+    font-family: sans-serif;
+    background-color: rgb(29, 29, 29);
+    overflow: hidden;
 }
 
 .navBar a {
