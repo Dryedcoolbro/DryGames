@@ -20,7 +20,23 @@ body {
     font-family: sans-serif;
     background-color: rgb(29, 29, 29);
     overflow: hidden;
-    border-radius: 25px;
+}
+
+#gameListUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#gameListUL li a {
+    border: 1px solid black;
+    margin-top: -1px;
+    background-color: white;
+    padding: 12x;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: block;
 }
 
 .navBar a {
@@ -29,16 +45,10 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 25px;
-    text-align: center;
+    font-size: 20px;
 }
 
 .navBar a:hover {
     background-color: rgb(255, 255, 255);
     color: black;
-}
-
-.navBar a.current {
-    background: rgb(92, 92, 92);
-    color: white;
 }
